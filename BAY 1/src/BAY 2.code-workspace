@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../BAY 2"
+		},
+		{
+			"name": "BAY 1",
+			"path": ".."
+		},
+		{
+			"name": "BAY 3",
+			"path": "../../BAY 3"
+		}
+	],
+	"settings": {}
+}

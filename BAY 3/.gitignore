@@ -1,0 +1,20 @@
+# PlatformIO
+.pio/
+.vscode/
+*.bin
+*.elf
+*.map
+*.log
+
+# Secrets / local config
+src/config.cpp
+.env
+.env.*
+secrets.h
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp

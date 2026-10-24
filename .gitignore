@@ -1,0 +1,36 @@
+# EVCP root — protects credentials & excludes generated files across all bays
+
+# PlatformIO build output (per-bay .pio/ folders)
+.pio/
+**/.pio/
+
+# VS Code / editor settings (per-bay .vscode/ folders)
+.vscode/
+**/.vscode/
+
+# Build artifacts
+*.bin
+*.elf
+*.map
+*.log
+
+# Secrets / local configuration — DO NOT commit credentials
+src/config.cpp
+**/src/config.cpp
+examples/config.cpp
+**/examples/config.cpp
+.env
+.env.*
+secrets.h
+*.pem
+*.key
+*.p12
+*.jks
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+BAY 2/.git-backup/
